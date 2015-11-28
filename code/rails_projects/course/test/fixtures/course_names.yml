@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  teacher_name: MyString
+  title: MyString
+  courser_name: MyString
+  hours: 1
+  quntity: 1
+
+two:
+  teacher_name: MyString
+  title: MyString
+  courser_name: MyString
+  hours: 1
+  quntity: 1
