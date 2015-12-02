@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+
 
   # resources :songs
   # The priority is based upon order of creation: first created -> highest priority.
@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   # root "welcome#home"
   resources :articles
-
+  root "articles#index"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
