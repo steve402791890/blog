@@ -1,12 +1,4 @@
-
-<% if @article.errors.any? %>
-<h2> The following errors prevented the article from getting created</h2>
-  <ul>
-    <% @article.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
-    <% end %>
-  </ul>
-<% end %>
+<%= render 'shared/errors', obj: @article %>
 
 <div class = 'row'>
   <div class = 'col-xs-12'>
@@ -40,7 +32,7 @@
 
     <% end %>
 
-    <p><b><%= link_to 'Back to index', articles_path %></p>
+    <p><b><%= link_to 'Back to index', articles_path %></b></p>
 
 </div>
 </div>
