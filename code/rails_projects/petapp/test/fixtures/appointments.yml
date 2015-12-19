@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  petname: MyString
+  owner: MyString
+  petwalker: MyString
+  appdate: 2015-11-21
+  applength: 1
+
+two:
+  petname: MyString
+  owner: MyString
+  petwalker: MyString
+  appdate: 2015-11-21
+  applength: 1

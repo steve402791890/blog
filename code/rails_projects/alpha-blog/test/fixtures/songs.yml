@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  singername: MyString
+  songtitle: MyString
+  releaseyear: 1
+  albumtitle: MyString
+  favorite: false
+  songlength: 1
+
+two:
+  singername: MyString
+  songtitle: MyString
+  releaseyear: 1
+  albumtitle: MyString
+  favorite: false
+  songlength: 1

@@ -1,0 +1,8 @@
+<h1>New Client Workout</h1>
+
+<%= render 'form' %>
+<%= form_tag "/client_workouts/find" do %>
+  <%= text_field_tag :search_string %>
+  <%= submit_tag "Search" %>
+<% end %>
+<%= link_to 'Back', client_workouts_path %>
